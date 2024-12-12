@@ -1,18 +1,75 @@
+body{
+    background-color: #00ffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: 20px;
+    color: #000000;
+}
 
+h1{
+    text-align: center;
+    background-color: #7fffd4;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+
+h2{
+    background-color: aquamarine;
+    font-size: 30px;
+
+}
+.navegacion{
+    background-color: #008b8b;
+    text-align: center;
+    margin-right: 28%;
+    margin-left: 28%;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
 
 #imganimal{
     height: auto;
     max-width: 200px;
     
 }
+
 figure{
     display: flex; 
+    background-color: #0077b6;
+    color: white;
+    
 }
 .gustos{
     padding-left: 20px;
+    font-family: "Agu Display";
 }
 
 .piePag{
-    background-color: rgb(0, 68, 255);
+    background-color: #0044ff;
     text-align: center;
+    padding: 10px;
+}
+
+ul{
+    padding: 5px;
+    margin-left: 25px;
+}
+strong{
+    font-weight: bold;
+    font-size: 22px;
+}
+.lista{
+    background-color: #008000;
+}
+del{
+    color: red;
+    font-weight: bold;
+}
+/* Falta por añadir la imagen de fondo en el indice */
+.indice{
+    background-image:url(https://www.muyinteresante.com/wp-content/uploads/sites/5/2023/09/24/650fff4d4269f.jpeg)
 }
